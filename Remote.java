@@ -1,12 +1,11 @@
 class Remote {
     String brand;
-    String type;          
+    String type;          // e.g., TV, AC, Music System
     int batteryLifeHours;
     boolean hasVoiceControl;
     int numberOfButtons;
     double price;
 
-    
     public Remote(String brand, String type, int batteryLifeHours, boolean hasVoiceControl, int numberOfButtons, double price) {
         this.brand = brand;
         this.type = type;

@@ -5,7 +5,6 @@ class Flower {
     boolean isFragrant;
     int petalsCount;
 
-  
     public Flower(String name, String color, double pricePerStem, boolean isFragrant, int petalsCount) {
         this.name = name;
         this.color = color;
@@ -13,7 +12,6 @@ class Flower {
         this.isFragrant = isFragrant;
         this.petalsCount = petalsCount;
     }
-
 
     public void display() {
         System.out.println("Name: " + this.name);
@@ -23,4 +21,6 @@ class Flower {
         System.out.println("Number of Petals: " + this.petalsCount + "\n");
     }
 }
+
+
 
